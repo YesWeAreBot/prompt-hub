@@ -5,3 +5,6 @@ ph-test-*/
 ph-lib-*/
 ph-src-*/
 ph-conflict-*/
+ph-wasm-*/
+ph-uni-*/
+ph-single-*/
