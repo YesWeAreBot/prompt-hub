@@ -1,0 +1,6 @@
+# 由 `ph lock` 生成 —— 不要手改。
+# 它把 pack.yaml 里的版本范围钉成精确版本，并记下依赖的 tree hash。
+# 运行时只认精确版本，所以带范围的依赖没有它就不能渲染。
+entries:
+  - ref: cats-role@1.2.0
+    treeHash: sha256-8c4b0f69c860996fc27572ada8632e7b568ecddd63b229eab358622d4caf77ed

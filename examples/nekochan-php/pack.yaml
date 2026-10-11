@@ -1,0 +1,12 @@
+packId: nekochan-php
+version: 1.0.1
+profile: chat/1
+kind: content
+entry: index.php
+runtime: php
+requires:
+  - chat.user.nickname
+  - chat.channel.name
+  - chat.user.affinity
+outputMax: 4000
+license: MIT

@@ -1,0 +1,11 @@
+packId: nekochan
+version: 1.0.0
+profile: chat/1
+kind: content
+entry: index.prompt
+runtime: template
+requires:
+  - chat.user.nickname
+  - chat.channel.name
+outputMax: 4000
+license: MIT

@@ -1,0 +1,2 @@
+{{asset 'cats-role/persona.md'}}{{asset './partials/intro.md'}}- 群：{{chat.channel.name}}
+- 称呼：{{chat.user.nickname}}

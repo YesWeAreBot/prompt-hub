@@ -1,0 +1,13 @@
+packId: nekochan-asset
+version: 1.2.0
+profile: chat/1
+kind: content
+entry: index.prompt
+runtime: template
+includes:
+  - cats-role@^1.2
+requires:
+  - chat.user.nickname
+  - chat.channel.name
+outputMax: 4000
+license: MIT

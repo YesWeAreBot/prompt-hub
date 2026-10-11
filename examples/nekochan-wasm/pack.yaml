@@ -1,0 +1,12 @@
+packId: nekochan-wasm
+version: 1.0.0
+profile: chat/1
+kind: content
+entry: index.wasm
+runtime: wasm
+requires:
+  - chat.user.nickname
+  - chat.channel.name
+  - chat.user.affinity
+outputMax: 4000
+license: MIT

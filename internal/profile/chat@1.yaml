@@ -1,0 +1,93 @@
+profile: chat/1
+description: 聊天类应用的标准上下文字段。
+
+fields:
+  - name: chat.assistant.id
+    type: string
+    stability: static
+    privacy: internal
+    description: 助手自身的标识；对所有人、所有时刻都一样
+
+  - name: chat.clock.now
+    type: timestamp
+    stability: per-request
+    privacy: public
+    description: 当前时间
+
+  - name: chat.model.id
+    type: string
+    stability: per-request
+    privacy: public
+    description: 本次调用使用的模型标识
+
+  - name: chat.model.tier
+    type: string
+    stability: per-request
+    privacy: public
+    description: 模型的档位（例如 weak / strong）
+
+  - name: chat.channel.id
+    type: string
+    stability: session
+    privacy: internal
+    description: 频道标识
+
+  - name: chat.channel.type
+    type: string
+    stability: session
+    privacy: internal
+    description: 频道类型（群聊 / 私聊）
+
+  - name: chat.channel.name
+    type: string
+    stability: session
+    privacy: internal
+    description: 频道显示名
+
+  - name: chat.channel.size
+    type: number
+    stability: session
+    privacy: internal
+    description: 频道当前人数
+
+  - name: chat.user.id
+    type: string
+    stability: session
+    privacy: internal
+    description: 用户标识
+
+  - name: chat.user.nickname
+    type: string
+    stability: session
+    privacy: internal
+    description: 用户显示名
+
+  - name: chat.user.profile
+    type: text
+    stability: session
+    privacy: internal
+    description: 用户自定义资料
+
+  - name: chat.user.affinity
+    type: number
+    stability: session
+    privacy: internal
+    description: 亲密度等关系数值
+
+  - name: chat.turn.user_text
+    type: text
+    stability: per-request
+    privacy: pii
+    description: 本轮用户输入
+
+  - name: chat.memory.recent
+    type: text
+    stability: session
+    privacy: pii
+    description: 近期对话记忆
+
+  - name: chat.memory.summary
+    type: text
+    stability: session
+    privacy: pii
+    description: 长期记忆摘要

@@ -1,0 +1,11 @@
+packId: live-data
+version: 0.1.0
+profile: chat/1
+kind: content
+entry: index.prompt
+runtime: template
+requires:
+  - chat.clock.now
+  - chat.turn.user_text
+outputMax: 2000
+license: MIT

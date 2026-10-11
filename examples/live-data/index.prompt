@@ -1,0 +1,5 @@
+【实时数据】
+- 当前时刻：{{chat.clock.now}}
+
+【用户这一轮说】
+{{chat.turn.user_text}}

@@ -1,0 +1,13 @@
+packId: nekochan-lib
+version: 1.1.0
+profile: chat/1
+kind: content
+entry: index.php
+runtime: php
+includes:
+  - cats-role@^1.2
+requires:
+  - chat.user.nickname
+  - chat.user.affinity
+outputMax: 4000
+license: MIT

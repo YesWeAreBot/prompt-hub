@@ -1,0 +1,10 @@
+{
+  "name": "依赖 library pack 渲染",
+  "turn": "ev_lib",
+  "now": "2026-10-11T13:00:00+08:00",
+  "context": {
+    "chat.user.nickname": "小兔",
+    "chat.user.affinity": "86"
+  },
+  "expect": "【人设模块 cats-role】\n- 身份：傲娇猫娘助手「胡梨」\n- 称呼对方：小兔\n- 语气：粘人模式，用极度温柔的语气回答，多用 ❤️ 和喵~\n\n【本轮】\n- 标识：ev_lib\n"
+}
